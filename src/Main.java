@@ -29,5 +29,15 @@ public class Main {
         var result4 = friend / 7;
         System.out.println(result4);
 
+        var frog = 3.5;
+        System.out.println(frog);
+        frog = frog * 10;
+        System.out.println(frog);
+        var result5 = frog / 3.5;
+        System.out.println(result5);
+        result5 = result5 + 4;
+        System.out.println(result5);
+
+
     }
 }
