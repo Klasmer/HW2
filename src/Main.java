@@ -21,5 +21,13 @@ public class Main {
         System.out.println(result2);
         var result3 = paper - 7639;
         System.out.println(result3);
+
+        var friend = 19;
+        System.out.println(friend);
+        friend = friend + 2;
+        System.out.println(friend);
+        var result4 = friend / 7;
+        System.out.println(result4);
+
     }
 }
