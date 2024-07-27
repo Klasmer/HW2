@@ -53,6 +53,18 @@ public class Main {
         var remainingWeight = (secondMan % firstMan);
         System.out.println("Остаток между двумя весами" + remainingWeight +"кг");
 
+        var workingРours = 640;
+        var workingРoursEmployee = 8;
+        var totalEmployees = workingРours / workingРoursEmployee;
+        System.out.println("Всего работников в компании" + totalEmployees + "человек");
+
+        var result6 = totalEmployees + 94;
+        var workingРoursEmployee2 = workingРours / result6;
+        System.out.println("Если в компании работает" + result6 + "человек, то всего" + workingРoursEmployee2 + "часов работы может быть поделено между сотрудниками");
+
+
+
+
 
 
     }
