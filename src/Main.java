@@ -38,6 +38,14 @@ public class Main {
         result5 = result5 + 4;
         System.out.println(result5);
 
+        var firstBoxer = 78.2;
+        var secondBoxer = 82.7;
+        var totalWeight = firstBoxer + secondBoxer;
+        System.out.println("Общий вес боксеров" + totalWeight + "кг");
+        var massDifference = firstBoxer - secondBoxer;
+        System.out.println("Разница между массами боксеров" + massDifference + "кг");
+
+
 
     }
 }
