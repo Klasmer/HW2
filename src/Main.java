@@ -44,6 +44,14 @@ public class Main {
         System.out.println("Общий вес боксеров" + totalWeight + "кг");
         var massDifference = firstBoxer - secondBoxer;
         System.out.println("Разница между массами боксеров" + massDifference + "кг");
+        /*
+         в задаче 7 не понял условия, использовать вес иp предыдущей задачи или нет. сделал
+         новые переменные.
+        */
+        var firstMan = 78.2;
+        var secondMan = 82.7;
+        var remainingWeight = (secondMan % firstMan);
+        System.out.println("Остаток между двумя весами" + remainingWeight +"кг");
 
 
 
